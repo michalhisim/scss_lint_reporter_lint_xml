@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
-  s.license           = "GPL-3.0"
+  s.license           = "MIT"
   s.name              = "scss_lint_reporter_checkstyle"
   s.version           = "0.0.1"
   s.summary           = "Extend the scss-lint with a Checkstyle formatter"
