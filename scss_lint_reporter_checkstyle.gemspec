@@ -11,12 +11,6 @@ Gem::Specification.new do |s|
   s.authors           = ["Foo"]
   s.email             = ["author at example dot com"]
   s.required_rubygems_version = ">= 1.3.6"
-
-  # The list of files to be contained in the gem
-  s.files = [
-    'lib/scss_lint_reporter_checkstyle.rb',
-    'scss_lint_reporter_checkstyle.gemspec',
-    'Gemfile',
-  ]
-  s.require_path = 'lib'
+  s.files = s.files = Dir['lib/**/*.rb']
+  s.require_path = ['lib']
 end
