@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.summary           = "Extend the scss-lint with a Checkstyle formatter"
   s.description       = "This gem add a new formatter to the scss-lint which is compatible with the Checkstyle standard."
   s.homepage          = "https://github.com/Sweetchuck/scss_lint_reporter_checkstyle"
-  s.authors           = ["Foo"]
-  s.email             = ["author at example dot com"]
+  s.authors           = ["Andor Dávid"]
+  s.email             = ["david-andor@kozpontiagy.hu"]
   s.required_rubygems_version = ">= 1.3.6"
   s.files = s.files = Dir['lib/**/*.rb']
   s.require_path = ['lib']
