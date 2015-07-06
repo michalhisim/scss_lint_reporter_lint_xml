@@ -1,7 +1,5 @@
 
-# Checkstyle formatter for SCSS-Lint
-
-[Checkstyle](http://checkstyle.sourceforge.net/index.html)
+# Lint XML formatter for SCSS-Lint
 
 [SCSS-Lint](https://github.com/causes/scss-lint)
 
@@ -14,26 +12,18 @@ Ruby gem: scss-lint >= 0.32.0
 ## Installation
 
 ```bash
-gem install scss_lint_reporter_checkstyle
+gem install scss_lint_reporter_lint_xml
 ```
 
 Check the installation:
 ```bash
-scss-lint --require=scss_lint_reporter_checkstyle --show-formatter
-```
-Output is something like this
-```
-Installed formatters:
- - Checkstyle
- - Config
- - Default
- - Files
- - JSON
+scss-lint --require=scss_lint_reporter_lint_xml --show-formatter
 ```
 
 ## Usage
 
 ```bash
-scss-lint --require=scss_lint_reporter_checkstyle --format=Checkstyle foo.scss
+scss-lint --require=scss_lint_reporter_lint_xml --format=lint-xml foo.scss
 ```
-[More detailed examples](https://github.com/causes/scss-lint/blob/master/README.md#usage)
+
+This GEM is heavily inspired by [scss_lint_reporter_checkstyle](https://github.com/Sweetchuck/scss_lint_reporter_checkstyle). Thanx.
